@@ -12,5 +12,18 @@
       "../common/mixins",
       "./mixins"
     ]
+  },
+  "Song": {
+    "dataSource": "mongodb",
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+          "*": false,
+          "find": true,
+          "findById": true
+        }
+      }
+    }
   }
 }
