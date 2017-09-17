@@ -14,6 +14,9 @@
 .idea
 .project
 .strong-pm
+*.production.json
+*.staging.json
+*.development.json
 coverage
 node_modules
 npm-debug.log

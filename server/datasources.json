@@ -3,10 +3,10 @@
     "host": "localhost",
     "port": 0,
     "url": "",
-    "database": "${MONGO_DATABASE}",
-    "password": "${MONGO_PASS}",
+    "database": "xmas",
+    "password": "",
     "name": "mongodb",
-    "user": "${MONGO_USER}",
+    "user": "",
     "connector": "mongodb"
   }
 }
