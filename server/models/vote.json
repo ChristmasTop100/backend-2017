@@ -1,0 +1,30 @@
+{
+  "name": "Vote",
+  "plural": "votes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "score": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "accounts": {
+      "type": "hasOne",
+      "model": "Account",
+      "foreignKey": ""
+    },
+    "songs": {
+      "type": "hasOne",
+      "model": "Song",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
